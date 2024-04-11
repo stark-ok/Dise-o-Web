@@ -1,0 +1,10 @@
+p {
+    border: 2px solid black;
+    background-color: red;
+    display: inline-block; /* ajusta el tamaño de su caja al tamaño del texto y los coloca uno al lado del otro dependiendo del tamaño de la pantalla, toma cada elemento completo por separado */
+    display: inline; /* se comporta como una sola linea, ajusta el tamaño de su caja al tamaño del texto y los coloca uno al lado del otro dependiendo del tamaño de la pantalla */
+}
+
+p#oculto {
+    display: none; /* hace que el elemento desaparezca */
+}
